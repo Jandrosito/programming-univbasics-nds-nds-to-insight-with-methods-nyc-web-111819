@@ -26,7 +26,7 @@ def gross_for_director(director_data)
   i = 0 
   while i < director_data.length do
   gross = director_data[:worldwide_gross]
-  += 1
+   i += 1
 end
   return gross
 end
