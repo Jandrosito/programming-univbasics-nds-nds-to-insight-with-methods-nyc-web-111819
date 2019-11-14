@@ -22,11 +22,5 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
-  gross = []
-  i = 0 
-  while i < director_data.length do
-  gross = director_data[:worldwide_gross]
-   i += 1
- end
- gross
+ director_data["Stephen Spielberg"]
 end
