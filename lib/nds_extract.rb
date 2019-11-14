@@ -31,5 +31,5 @@ def gross_for_director(director_data)
     total_gross += gross
     i+=1
   end
- total
+ total_gross
 end
