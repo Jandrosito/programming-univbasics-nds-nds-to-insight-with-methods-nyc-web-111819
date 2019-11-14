@@ -25,7 +25,7 @@ def gross_for_director(director_data)
   new_array = director_data[:movies]
   i = 0 
   total_gross = 0
-  while i < array.length do
+  while i < new_array.length do
     anotha_array = array[i]
     gross = anotha_array[:worldwide_gross]
     total_gross += gross
