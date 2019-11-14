@@ -22,6 +22,14 @@ end
 # Find a way to accumulate the :worldwide_grosses and return that Integer
 # using director_data as input
 def gross_for_director(director_data)
- first_director_name = directors_database.first.values.first
-    first_director_hash = directors_database.find{ |x| x[:name] == first_director_name }
+  new_array = director_data[:movies]
+  i = 0 
+  total = 0
+  while i < array.length do
+    anotha_array = array[i]
+    income = anotha_array[:worldwide_gross]
+    total += income
+    i+=1
+  end
+ total
 end
